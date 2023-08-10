@@ -1,0 +1,43 @@
+h1{
+    border: 10px orangered lightyellow;
+    margin-right:10px ;
+    background-color: blanchedalmond;
+}
+.static, .relative, .absolute, div{
+    width: fit-content;
+}
+section{
+    border: 5px inset rgb(24, 25, 35);
+    height: 679px;
+    width: 860px;
+}
+div{
+    border: 100px;
+    height: fit-content;
+    
+}
+.static {
+    border: 100px groove black;
+    background-color: rgb(221, 221, 221);
+    position: static;
+   
+}
+
+.relative {
+    border: 100px groove rebeccapurple;
+    background-attachment: lightblue;
+    position: relative;
+    top: 10px;
+    left: 300px;
+    
+}
+
+.absolute{
+    border: 100px groove lightseagreen;
+    background-color: rgb(197, 191, 215);
+    position: absolute;
+    top: 545px;
+    left: 620px;
+    right: 300px;
+    
+}
