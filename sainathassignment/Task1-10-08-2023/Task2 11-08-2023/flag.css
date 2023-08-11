@@ -1,0 +1,51 @@
+.flag{
+    position: relative;
+    width: 260px;
+    height: 200px;
+    top: 20px;
+    left:100px;
+  }
+  
+  .flag-india {
+    width: 75%;
+    height: 100%;
+    position: relative;
+  }
+  
+  div.orange,.white,.green{
+    height: 40%;
+    width: 200%;
+    border: 1px solid;
+  }
+  
+  .orange{
+    background-color: #ff9933;
+  }
+  
+  .white {
+    background-color: #ffffff;
+  }
+  
+  .green {
+    background-color: #138808;
+  }
+  
+  .ashoka-chakra {
+    width: 40%;
+    height: 40%;
+    background-color: #0000ff;
+    position: absolute;
+    border-radius: 50%;
+    top: 61%;
+    left: 80%;
+    transform: translateY(-50%);
+  }
+  
+  .stick {
+    width: 5px;
+    height: 300%;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+  }
+  
