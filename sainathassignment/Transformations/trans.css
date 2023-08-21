@@ -1,0 +1,42 @@
+/* /* body{
+    display: grid;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+/* flexbox */
+/* body{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* margin */
+
+/* .square{
+    margin: 250px auto;
+} */
+
+
+/* position */
+
+/* .square{
+    position: relative;
+    top: 250px;
+    left: 45%;
+} */
+
+
+/* transform  */
+
+.square{
+    transform: translate(600px,250px);
+}
